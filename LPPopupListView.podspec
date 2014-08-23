@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Luka Penger' => 'luka.penger@gmail.com' }
   s.source       = { :git => "https://github.com/luka1995/LPPopupListView.git", :tag => s.version.to_s }
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '6.0'
   s.source_files = 'LPPopupListView/**/*.{h,m}'
   s.resources    = 'LPPopupListView/**/Images/*.png'
   s.frameworks    = "CoreLocation","AVFoundation"
